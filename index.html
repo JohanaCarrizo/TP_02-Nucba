@@ -1,30 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Landing Page</title>
-  <link rel="stylesheet" href="./styles.css">
-  <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-argentina-16.png">
-</head>
-<body>
-  
-  <header class="header">
-    <div class="logo">
-      <img src="./assets/pngkey.com-drawing-pencil-png-9092998.png" alt="Logo de marca messi">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page - Tienda Messi</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-dirección-16.png">
+    <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-teléfono-16.png">
+    <link type="image/png" sizes="16x16" rel="icon" href=".../icons8-mail-16.png">
+    <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-facebook-32.png">
+    <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-instagram-32.png">
+    <link type="image/png" sizes="32x32" rel="icon" href=".../icons8-twitter-cuadrado-32.png">
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href=".../icons8-confianza-96.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href=".../icons8-diamond-care-32.png"
+    />
+    <link
+      type="image/png"
+      sizes="32x32"
+      rel="icon"
+      href=".../icons8-soporte-en-línea-32.png"
+    />
+  </head>
+  <body>
+
     <nav class="navbar">
-      <ul class="items">
+      <img class="logo"
+          src="./assets/pngkey.com-drawing-pencil-png-9092998.png"
+          alt="Logo de marca messi"
+        />
+      <ul class="items">        
         <li class="active"><a href="#">Inicio</a></li>
-        <li><a href="#">Noticias</a></li>
-        <li><a href="#">Biografía</a></li>
-        <li><a href="#">Estadísticas</a></li>
+        <li><a href="#">Productos</a></li>
+        <li><a href="#s-beneficio" target="">Beneficios</a></li>
+        <li><a href="#">Soporte</a></li>
       </ul>
     </nav>
-  </header>
-  <main>
-    <h1>GOAT</h1>
-  </main>
 
-</body>
+    <section class="hero">
+        <div class="contenedor-opaco">
+          <div class="contenedor">
+            <div class="info">
+              <h1>La Messi Store</h1>
+              <h2>
+                Descubre la esencia del estilo ganador con nuestra exclusiva
+                colección de ropa de la línea Messi. En Messi Store, nos
+                enorgullece presentar una selección única de prendas diseñadas
+                para reflejar la pasión, la determinación y el talento inigualable
+                de Lionel Messi.
+              </h2>
+              <div class="boton">
+                <button>Contactanos</button>
+                <button>Ofertas</button>
+              </div>
+            </div>
+            <div class="imagen">
+              <img
+                src="./assets/messi-lo-modela.jpg"
+                alt="Imagen de Messi con la camiseta 3 estrellas"
+              />
+            </div>
+          </div>
+        </div>      
+      
+    </section>
+
+    <section class="seccion-beneficios" id="s-beneficio">
+      <div class="contenedor-beneficios">
+        <div class="text-beneficio">
+          <h2>Nuestros Beneficios</h2>
+          <h3>
+            Comprar es más que una transacción; es una decisión que viene con
+            una serie de beneficios exclusivos
+          </h3>
+        </div>
+        <div class="cards-beneficios">
+          <div class="card">
+            <img src="./assets/icon-confianza.png" alt="icono de confianza" />
+            <h2>Confianza</h2>
+            <h3>
+              Valoramos la transparencia en nuestro proceso. Desde la selección
+              de productos hasta el envío y más allá, te mantenemos informado en
+              cada paso del camino
+            </h3>
+          </div>
+          <div class="card">
+            <img src="./assets/icon-diamond-care.png" alt="icono de calidad" />
+            <h2>Compromiso con la Calidad</h2>
+            <h3>
+              En cada prenda que seleccionamos para nuestra colección,
+              priorizamos la calidad. Nos esforzamos por brindarte productos que
+              destaquen por su durabilidad y comodidad
+            </h3>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/icon-soporte-en-línea.png"
+              alt="icono de confianza"
+            />
+            <h2>Atención al cliente</h2>
+            <h3>
+              Nuestro equipo de atención al cliente está aquí para ti. Ya sea
+              que tengas preguntas sobre productos, necesites ayuda con tu
+              compra o tengas alguna inquietud
+            </h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+
+    <section class="seccion-contacto">
+      <div class="contenedor-contacto">
+        <div class="contact-us">
+          <h2 class="text-contact">Contactanos</h2>
+          <div class="info-contacto">
+  
+            <div class="card-item-contact">
+              <h3>Rosario, Argentina</h3>
+              <ul class="items">
+                <li><img src="./assets/dirección.png" alt="Icono direccion"> Calle falsa 123</li>
+                <li><img src="./assets/icons8-mail-16.png" alt="Icono email"> miCorreo@gmail.com</li>
+                <li><img src="./assets/icons8-teléfono-16.png" alt="Icono telefono"> 011156854952</li>
+              </ul>
+            </div>
+            
+            <div class="card-item-contact">            
+              <h3>Liones Andrés Messi</h3>
+              <ul class="items">
+                <li><img src="./assets/dirección.png" alt="Icono de direccion"> Calle falsa 123</li>
+                <li><img src="./assets/icons8-mail-16.png" alt="Icono de email"> miCorreo@gmail.com</li>
+                <li><img src="./assets/icons8-teléfono-16.png" alt="Icono de telefono"> 011156854952</li>
+              </ul>
+            </div>    
+          </div>
+
+          <div class="redes-sociales">
+            <ul>
+              <li><a href="#"><img src="./assets/icons8-facebook-32.png" alt="Icono de Facebook"></a></li>              
+              <li><a href="#"><img src="./assets/icons8-instagram-32.png" alt="Icono de Instagram"></a></li>
+              <li><a href="#"><img src="./assets/icons8-twitter-cuadrado-32.png" alt="Icono de Twitter"></a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="contact-img">
+          <img src="./assets/messi-winners-kiss-the-2022-world-cup-removebg-preview.png" alt="Imagen de Messi besando la copa del mundo">
+        </div>
+
+      </div>
+      
+    </section>
+
+    <footer>
+      <img src="./assets/pngkey.com-drawing-pencil-png-9092998.png" alt="Icono de la tienda de Messi">
+      <p class="footer-texto text-center">Copyright©2023 by Johana Carrizo</p>
+    </footer>
+
+  </body>
 </html>
